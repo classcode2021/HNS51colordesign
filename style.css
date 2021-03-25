@@ -1,0 +1,37 @@
+/* h1{
+    color: #ff99ff;
+} */
+/* * {
+    border: solid;
+} */
+.header{
+  /* background-color:hsl(135, 90%, 72%); */
+  display:flex;
+  justify-content: space-between;
+  
+}
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+}
+.footer{
+display:flex; 
+justify-content: flex-start; 
+}
+p,h2{
+    text-align:center;
+}
+
+body{
+    /* background-image: url("sunset.jpg"); */
+    background-color:#e83839
+}
+marquee{
+    display: flex;
+    height:100px;
+    width:100%;
+    position:relative;
+    background:yellow;
+    color: #182acc;
+}
